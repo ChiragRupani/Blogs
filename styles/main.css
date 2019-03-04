@@ -1,0 +1,27 @@
+body {
+  background-color: #161616;
+  color: #fefeff;
+  font-family: 'Arial', 'Segoe UI', 'San Francisco', 'Helvetica Neue', Roboto,
+    Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+
+body.light {
+  background-color: #dcdff4;
+  color: #0f1f2b;
+}
+
+.content {
+  margin: 10px auto;
+  width: 90%;
+  animation: fadein 2s ease-in;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
