@@ -1,0 +1,23 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "The repository for blog website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiragRupani/blogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChiragRupani/blogs/issues"
+  },
+  "homepage": "https://github.com/ChiragRupani/blogs#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
