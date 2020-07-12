@@ -1,9 +1,11 @@
 body {
   background-color: #161616;
-  color: #fefeff;
-  font-family: 'Arial', 'Segoe UI', 'San Francisco', 'Helvetica Neue', Roboto,
-    Tahoma, Geneva, Verdana, sans-serif;
+  color: #fcfcfc;
+  font-family: 'Segoe UI', 'San Francisco', 'Helvetica Neue', Roboto, Tahoma,
+    Geneva, Verdana, sans-serif;
   margin: 10px;
+  font-size: 16px;
+  box-sizing: 'border-box';
 }
 
 body.light {
@@ -13,7 +15,7 @@ body.light {
 
 .content {
   margin: 10px auto;
-  width: 90%;
+  max-width: 90%;
   animation: fadein 2s ease-in;
 }
 
@@ -24,4 +26,12 @@ body.light {
   to {
     opacity: 1;
   }
+}
+
+a {
+  color: #34a1eb;
+}
+
+p {
+  font-size: 24px;
 }
